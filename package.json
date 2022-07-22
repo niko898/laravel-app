@@ -18,11 +18,12 @@
         "postcss": "^8.1.14",
         "resolve-url-loader": "^3.1.2",
         "sass": "^1.32.11",
-        "sass-loader": "^11.0.1"
+        "sass-loader": "^11.0.1",
+        "vue-loader": "^16.2.0"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "^6.1.1",
         "bootstrap-icons": "^1.8.3",
-        "vuex": "^4.0.2"
+        "vue": "^3.2.37"
     }
 }
