@@ -10,7 +10,7 @@
     </head>
     <body>
         <div class="container">
-           
+
             @yield('hero')
             @yield('content')
             @yield('vue')
