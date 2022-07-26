@@ -10,7 +10,23 @@
     </head>
     <body>
         <div class="container">
-
+            <nav class="navbar navbar-expand bg-light navbar-light">
+                <div class="container-fluid">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link menu-link {{ activeMainLink() }}"
+                               href=" {{ route('home')  }}">Главная страница</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link menu-link {{ activeArticleLink () }}"
+                               href="{{ route('article.index')  }}">Каталог статей</a>
+                        </li>
+                    </ul>
+                    <a class="d-flex justify-content-end " href="https://github.com/rageserg">
+                        <i class="bi bi-github" style="font-size: 2rem; color: #000000;"></i>
+                    </a>
+                </div>
+            </nav>
             @yield('hero')
             @yield('content')
             @yield('vue')
